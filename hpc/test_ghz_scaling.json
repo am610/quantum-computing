@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "min_qubits": 8,
+    "max_qubits": 14,
+    "shots": 1024,
+    "device": "CPU",
+    "precision": "double",
+    "blocking": false,
+    "out": "hpc/test_ghz_scaling.json"
+  },
+  "benchmarks": [
+    {
+      "qubits": 8,
+      "memory_gib": 0.0,
+      "compile_time_sec": 3.0048,
+      "sim_time_sec": 0.2398,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    },
+    {
+      "qubits": 9,
+      "memory_gib": 0.0,
+      "compile_time_sec": 0.1257,
+      "sim_time_sec": 0.1545,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    },
+    {
+      "qubits": 10,
+      "memory_gib": 0.0,
+      "compile_time_sec": 0.1049,
+      "sim_time_sec": 0.1901,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    },
+    {
+      "qubits": 11,
+      "memory_gib": 0.0,
+      "compile_time_sec": 0.0991,
+      "sim_time_sec": 0.1146,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    },
+    {
+      "qubits": 12,
+      "memory_gib": 0.0001,
+      "compile_time_sec": 0.1821,
+      "sim_time_sec": 0.1316,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    },
+    {
+      "qubits": 13,
+      "memory_gib": 0.0001,
+      "compile_time_sec": 0.1752,
+      "sim_time_sec": 0.1037,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    },
+    {
+      "qubits": 14,
+      "memory_gib": 0.0002,
+      "compile_time_sec": 0.1854,
+      "sim_time_sec": 0.113,
+      "ghz_fidelity": 1.0,
+      "status": "SUCCESS"
+    }
+  ]
+}

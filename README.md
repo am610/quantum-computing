@@ -63,6 +63,12 @@ job = Sampler(mode=backend).run([isa_circuit], shots=4096)
 
 Get a free token at [quantum.ibm.com](https://quantum.ibm.com/).
 
+## HPC & GPU-Accelerated Quantum Simulation
+
+For scaling quantum circuits beyond laptop scale across GPUs and multi-node HPC clusters (e.g. NCSA DeltaAI, NERSC Perlmutter):
+- See [HPC_QUANTUM_SIMULATION_README.md](HPC_QUANTUM_SIMULATION_README.md) for GPU sizing rules (up to 37+ qubits), multi-GPU/MPI templates for CUDA-Q, PennyLane Lightning, Qiskit Aer (`cuStateVec` blocking & `mpi4py` parameter sweeps), and Cray MPICH troubleshooting.
+- See [QML_CONCEPTS_AND_FAQ.md](QML_CONCEPTS_AND_FAQ.md) for concepts, quantum kernel methods (QSVC/QSVR), VQC, and astrophysics pipeline benchmarks.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

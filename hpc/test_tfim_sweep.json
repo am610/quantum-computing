@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "spins": 4,
+    "grid_points": 9,
+    "nranks": 1,
+    "device": "CPU",
+    "precision": "double",
+    "shots": 1024,
+    "total_walltime_sec": 21.847,
+    "throughput_evals_per_sec": 0.41
+  },
+  "results": [
+    {
+      "idx": 0,
+      "rank": 0,
+      "j": 0.2,
+      "h": 0.2,
+      "vqe_energy": 0.164062,
+      "exact_e0": -0.951754,
+      "eval_time_sec": 8.8489
+    },
+    {
+      "idx": 1,
+      "rank": 0,
+      "j": 0.2,
+      "h": 1.0,
+      "vqe_energy": -0.034766,
+      "exact_e0": -4.030025,
+      "eval_time_sec": 1.4206
+    },
+    {
+      "idx": 2,
+      "rank": 0,
+      "j": 0.2,
+      "h": 1.8,
+      "vqe_energy": -0.365625,
+      "exact_e0": -7.216671,
+      "eval_time_sec": 1.3967
+    },
+    {
+      "idx": 3,
+      "rank": 0,
+      "j": 1.0,
+      "h": 0.2,
+      "vqe_energy": 1.109375,
+      "exact_e0": -3.061735,
+      "eval_time_sec": 1.4804
+    },
+    {
+      "idx": 4,
+      "rank": 0,
+      "j": 1.0,
+      "h": 1.0,
+      "vqe_energy": 0.783203,
+      "exact_e0": -4.75877,
+      "eval_time_sec": 1.5038
+    },
+    {
+      "idx": 5,
+      "rank": 0,
+      "j": 1.0,
+      "h": 1.8,
+      "vqe_energy": 0.588281,
+      "exact_e0": -7.619073,
+      "eval_time_sec": 1.6204
+    },
+    {
+      "idx": 6,
+      "rank": 0,
+      "j": 1.8,
+      "h": 0.2,
+      "vqe_energy": 1.9375,
+      "exact_e0": -5.433639,
+      "eval_time_sec": 1.6813
+    },
+    {
+      "idx": 7,
+      "rank": 0,
+      "j": 1.8,
+      "h": 1.0,
+      "vqe_energy": 1.672656,
+      "exact_e0": -6.364157,
+      "eval_time_sec": 1.9127
+    },
+    {
+      "idx": 8,
+      "rank": 0,
+      "j": 1.8,
+      "h": 1.8,
+      "vqe_energy": 1.455469,
+      "exact_e0": -8.565787,
+      "eval_time_sec": 1.9817
+    }
+  ]
+}
